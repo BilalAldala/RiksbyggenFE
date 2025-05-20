@@ -1,0 +1,36 @@
+.appBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  padding: 0 20px;
+  background: #1a5568;
+  z-index: 1100;
+  height: 100px;
+}
+
+.logoAndNavMenu {
+  display: none;
+}
+
+.logoutIcon:hover {
+  color: aliceblue;
+}
+
+.title {
+  flex-grow: 1;
+  text-align: center;
+  color: aliceblue;
+}
+
+.authContainer {
+  display: flex;
+  align-items: center;
+  padding-right: 16px
+}
+
+.username {
+  margin-right: 10px;
+  color: aliceblue;
+}

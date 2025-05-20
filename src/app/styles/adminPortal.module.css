@@ -1,0 +1,27 @@
+.root {
+    display: flex;
+}
+
+.drawer {
+    width: 240px;
+    flex-shrink: 0;
+    z-index: 1000;
+}
+
+.drawerPaper {
+    width: 240px;
+    margin-top: 104px;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 16px;
+}
+
+.uploadInput {
+    display: none;
+}
+
+.selectedItem {
+    background-color: #f0f0f0;
+}
